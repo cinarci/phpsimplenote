@@ -9,7 +9,7 @@ if ($result->num_rows > 0) {
         echo "<h2>" . $row["title"] . "</h2>";
         echo "<p>" . $row["content"] . "</p>";
         echo "<p>" . $row["created_at"] . "</p>";
-        echo "<a href='delete_note.php?id=" . $row["id"] . "'>Sil</a>";
+        echo "<a href='delete_note.php?id=" . $row["id"] . "'> Notu Sil</a>";
         echo "<hr>";
     }
 } else {

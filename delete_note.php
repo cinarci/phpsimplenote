@@ -8,7 +8,7 @@ if (isset($_GET["id"])) {
     if ($conn->query($sql) === TRUE) {
         echo "Not başarıyla silindi.";
     } else {
-        echo "Not silinirken hata oluştu: " . $conn->error;
+        echo "Not silinirken hata oluştu : " . $conn->error;
     }
 }
 
